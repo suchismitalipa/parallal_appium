@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.browserstack.run_parallel_test.BrowserStackTestNGTest"/>
+      <class name="com.browserstack.run_first_test.BrowserStackTestNGTest"/>
+      <class name="com.browserstack.run_local_test.LocalTest"/>
+      <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+      <class name="com.browserstack.run_first_test.FirstTest"/>
+      <class name="com.browserstack.run_local_test.BrowserStackTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
