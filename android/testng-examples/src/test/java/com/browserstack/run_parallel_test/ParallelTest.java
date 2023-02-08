@@ -2,8 +2,6 @@ package com.browserstack.run_parallel_test;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import io.appium.java_client.MobileBy;
 
 
